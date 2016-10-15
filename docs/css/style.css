@@ -220,13 +220,13 @@ select {
     font-size: 0.875rem; }
     .post-tagList li:not(:last-child) {
       margin-right: 0.5rem; }
-    .post-tagList a.xin-shi-jie {
+    .post-tagList a.xin_shi_jie {
       color: #ee6557; }
-      .post-tagList a.xin-shi-jie:hover {
+      .post-tagList a.xin_shi_jie:hover {
         color: #ee6557; }
-    .post-tagList a.black-pearl {
+    .post-tagList a.black_pearl {
       color: #16a6b6; }
-      .post-tagList a.black-pearl:hover {
+      .post-tagList a.black_pearl:hover {
         color: #16a6b6; }
     .post-tagList a {
       color: #888; }
@@ -257,11 +257,11 @@ select {
   margin-bottom: 5px; }
   .text_title:hover {
     color: #444; }
-.text.black-pearl {
+.text.black_pearl {
   background: url("../img/icon_black_pearl.png") no-repeat left top;
   background-size: 80px auto;
   padding-left: 100px; }
-.text.xin-shi-jie {
+.text.xin_shi_jie {
   background: url("../img/icon_xin_shi_jie.png") no-repeat left top;
   background-size: 80px auto;
   padding-left: 100px; }
