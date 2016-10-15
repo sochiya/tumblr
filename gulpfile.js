@@ -33,6 +33,8 @@ gulp.task('jade', function () {
 gulp.task('copy', function() {
   gulp.src('public/assets/css/*.css')
     .pipe(gulp.dest('docs/css/'));
+  gulp.src('public/assets/img/*.png')
+    .pipe(gulp.dest('docs/img/'));
 });
 
 // watch
