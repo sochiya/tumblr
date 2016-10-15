@@ -1,0 +1,385 @@
+@charset "UTF-8";
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+img,
+small, strong, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header,
+nav, section,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1; }
+
+h1, h2, h3, h4, h5, h6, dt {
+  font-weight: 300; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+  display: block; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input,
+select {
+  vertical-align: middle; }
+
+.site-header {
+  margin-bottom: 1rem;
+  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .site-header-image {
+    margin-bottom: -5px; }
+.site-menu {
+  text-align: center; }
+  .site-menu li {
+    margin: 0 0.5rem;
+    display: inline-block; }
+    .site-menu li a {
+      font-weight: 200;
+      font-size: 14px;
+      font-size: 0.875rem;
+      color: #666; }
+      .site-menu li a:hover {
+        color: #666; }
+.site-footer {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  left: 20px; }
+.site_title {
+  font-weight: 500;
+  font-size: 26px;
+  font-size: 1.625rem; }
+  .site_title small {
+    font-weight: 500;
+    font-size: 22px;
+    font-size: 1.375rem; }
+.site_desc {
+  text-align: right;
+  font-family: "ryo-text-plusn", serif;
+  font-weight: 200;
+  font-size: 12px;
+  font-size: 0.75rem; }
+.site_copyright {
+  font-weight: 300;
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  font-family: "Lucida Grande"; }
+
+.widget {
+  margin-top: 2rem; }
+  .widget_title {
+    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 10px; }
+
+.author {
+  display: flex; }
+  .author-image {
+    flex: 0 0 80px;
+    margin-right: 1rem; }
+    .author-image img {
+      border: 1px solid #888;
+      border-radius: 8px;
+      background: #ddd;
+      min-width: 80px;
+      min-height: 80px; }
+  .author-body {
+    flex-grow: 1; }
+  .author_name {
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    margin: 5px 0 0.5rem; }
+  .author_description {
+    font-weight: 200;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.25; }
+    .author_description p {
+      margin-bottom: 0.25rem; }
+  .author_twitter {
+    margin: 0 0.5rem;
+    font-weight: 300;
+    font-size: 12px;
+    font-size: 0.75rem;
+    color: #aaa; }
+    .author_twitter:hover {
+      color: #aaa; }
+    .author_twitter:before {
+      color: #00aced;
+      font-weight: 300;
+      font-size: 18px;
+      font-size: 1.125rem;
+      content: "";
+      font-family: "FontAwesome"; }
+      .author_twitter:before:hover {
+        color: #00aced; }
+
+.pagenation_next a, .pagenation_prev a {
+  font-weight: 200;
+  font-size: 16px;
+  font-size: 1rem; }
+
+.pagenation {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .pagenation_next a:after {
+    margin-left: 0.25rem;
+    content: "";
+    font-family: "FontAwesome"; }
+  .pagenation_prev a:before {
+    margin-right: 0.25rem;
+    content: "";
+    font-family: "FontAwesome"; }
+  .pagenation_separator {
+    display: inline-block;
+    margin: 0 0.75rem;
+    width: 7px;
+    height: 7px;
+    border-radius: 6px;
+    background: #888; }
+
+.post {
+  margin-bottom: 3rem; }
+  .post-tagList {
+    margin-bottom: 0.5rem;
+    display: flex;
+    font-weight: 300;
+    font-size: 14px;
+    font-size: 0.875rem; }
+    .post-tagList li:not(:last-child) {
+      margin-right: 0.5rem; }
+    .post-tagList a.xin-shi-jie {
+      color: #ee6557; }
+      .post-tagList a.xin-shi-jie:hover {
+        color: #ee6557; }
+    .post-tagList a.black-pearl {
+      color: #16a6b6; }
+      .post-tagList a.black-pearl:hover {
+        color: #16a6b6; }
+    .post-tagList a {
+      color: #888; }
+      .post-tagList a:before {
+        content: "#"; }
+      .post-tagList a:hover {
+        color: #888; }
+  .post-control {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-end; }
+    .post-control li:not(:last-child) {
+      margin-right: 0.5rem; }
+
+.text-body {
+  font-weight: 200;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.5; }
+  .text-body p {
+    margin-bottom: 0.5rem; }
+.text_title {
+  color: #444;
+  font-weight: 300;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin-bottom: 5px; }
+  .text_title:hover {
+    color: #444; }
+.text.black-pearl {
+  background: url("../img/icon_black_pearl.png") no-repeat left top;
+  background-size: 80px auto;
+  padding-left: 100px; }
+.text.xin-shi-jie {
+  background: url("../img/icon_xin_shi_jie.png") no-repeat left top;
+  background-size: 80px auto;
+  padding-left: 100px; }
+
+.quote-body {
+  font-family: "ryo-text-plusn", serif;
+  font-style: italic; }
+  .quote-body:before {
+    float: left;
+    width: 70px;
+    text-align: right;
+    margin-right: 30px;
+    color: #888;
+    content: "";
+    font-family: "FontAwesome";
+    font-weight: 300;
+    font-size: 48px;
+    font-size: 3rem; }
+.quote blockquote {
+  font-weight: 300;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 1.5; }
+.quote cite {
+  display: block;
+  text-align: right;
+  font-weight: 300;
+  font-size: 14px;
+  font-size: 0.875rem; }
+  .quote cite:before {
+    margin-right: 0.5rem;
+    content: "──"; }
+.quote .post-footer {
+  margin-left: 100px; }
+
+.media {
+  background: #fff;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); }
+  .media-image {
+    border-radius: 2px;
+    overflow: hidden; }
+    .media-image img {
+      display: block;
+      width: 100%; }
+  .media-body {
+    margin-top: 5px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 14px;
+    font-size: 0.875rem; }
+
+.chat:before {
+  float: left;
+  width: 70px;
+  height: 70px;
+  text-align: right;
+  margin-right: 30px;
+  color: #888;
+  content: "";
+  font-family: "FontAwesome";
+  font-weight: 300;
+  font-size: 48px;
+  font-size: 3rem; }
+.chat_title {
+  font-family: "ryo-text-plusn", serif;
+  font-weight: 300;
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem; }
+.chat-body {
+  margin-left: 100px;
+  line-height: 1.5; }
+  .chat-body dl {
+    display: flex;
+    margin-bottom: 0.5rem; }
+  .chat-body dt {
+    font-weight: 600;
+    margin-right: 0.5rem; }
+.chat .post-footer {
+  margin-left: 100px; }
+
+body {
+  color: #444;
+  background: #f9f9f9;
+  font-family: "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Roboto", "Droid Sans", "YuGothic", "游ゴシック", "Meiryo", "メイリオ", "Verdana", "ＭＳ Ｐゴシック", sans-serif;
+  font-weight: 300; }
+
+a {
+  color: #4a90e2;
+  text-decoration: none; }
+  a:hover {
+    color: #2275d7; }
+
+#layout-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 360px;
+  padding: 20px;
+  color: #666;
+  background: #fff;
+  z-index: 2;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2); }
+#layout-content {
+  max-width: 800px;
+  margin-left: 360px;
+  padding: 50px; }
+
+.tagList {
+  margin-right: -30px; }
+  .tagList li {
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 1px 0 4px rgba(0, 0, 0, 0.2); }
+    .tagList li:not(:last-child) {
+      margin-bottom: 10px; }
+    .tagList li img {
+      display: block; }
