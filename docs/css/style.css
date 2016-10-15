@@ -258,11 +258,11 @@ select {
   .text_title:hover {
     color: #444; }
 .text.black_pearl {
-  background: url("../img/icon_black_pearl.png") no-repeat left top;
+  background: url("https://sochiya.github.io/tumblr/img/icon_black_pearl.png") no-repeat left top;
   background-size: 80px auto;
   padding-left: 100px; }
 .text.xin_shi_jie {
-  background: url("../img/icon_xin_shi_jie.png") no-repeat left top;
+  background: url("https://sochiya.github.io/tumblr/img/icon_xin_shi_jie.png") no-repeat left top;
   background-size: 80px auto;
   padding-left: 100px; }
 
