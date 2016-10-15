@@ -148,9 +148,7 @@ select {
     flex: 0 0 80px;
     margin-right: 1rem; }
     .author-image img {
-      border: 1px solid #888;
       border-radius: 8px;
-      background: #ddd;
       min-width: 80px;
       min-height: 80px; }
   .author-body {
