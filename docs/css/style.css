@@ -220,13 +220,13 @@ select {
     font-size: 0.875rem; }
     .post-tagList li:not(:last-child) {
       margin-right: 0.5rem; }
-    .post-tagList a.xin_shi_jie {
+    .post-tagList a.xin-shi-jie {
       color: #ee6557; }
-      .post-tagList a.xin_shi_jie:hover {
+      .post-tagList a.xin-shi-jie:hover {
         color: #ee6557; }
-    .post-tagList a.black_pearl {
+    .post-tagList a.black-pearl {
       color: #16a6b6; }
-      .post-tagList a.black_pearl:hover {
+      .post-tagList a.black-pearl:hover {
         color: #16a6b6; }
     .post-tagList a {
       color: #888; }
