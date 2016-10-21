@@ -211,7 +211,7 @@ select {
 .post {
   margin-bottom: 3rem; }
   .post-tagList {
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     display: flex;
     font-weight: 300;
     font-size: 14px;
@@ -233,7 +233,7 @@ select {
       .post-tagList a:hover {
         color: #888; }
   .post-control {
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: flex-end; }
     .post-control li:not(:last-child) {
