@@ -40,5 +40,5 @@ gulp.task('copy', function() {
 // watch
 gulp.task('watch', function () {
   gulp.watch('src/sass/**/*.sass', ['sass']);
-  gulp.watch('src/jade/**/*.jade', ['views']);
+  gulp.watch('src/jade/**/*.jade', ['jade']);
 });
